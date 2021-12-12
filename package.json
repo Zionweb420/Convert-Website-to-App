@@ -1,9 +1,12 @@
 {
-  "name": "convert-website-to-app",
+  "name": "https://zionwebcreate.com/Convert-Website-to-App",
+",
   "version": "0.0.1",
-  "author": "Jameson Saunders",
-  "homepage": "https://jamesonsaunders.com/offer/website-to-app-497?s=githubcode",
+  "author": "Raymond Edrozo",
+  "homepage": "https://zionwebcreate.com",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
